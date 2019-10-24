@@ -1,0 +1,17 @@
+- layout: left
+  name: Technical Skills
+  dates: 
+  qualification: 
+  quote: > 
+    Can make any web application you'd like
+
+  description: | # this will include new lines to allow paragraphs
+    | Languages | Toold and technologies | Frameworks and libraries |
+    | ----- | ----- | ----- |
+    |   Java    |   Git    |    Express   |
+    | JavaScript | Node.js | Passport.js |
+    | C++ | gCloud | MongoDB |
+    | HTML | Android Studio | jQuerry |
+    | CSS | Visual Studio | ejs |
+
+    

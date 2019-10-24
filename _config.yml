@@ -1,0 +1,58 @@
+# Site
+repository: sproogen/resume-theme
+# favicon: images/favicon.ico
+
+# Personal info
+name: Egor Zakharov
+title: Junior Software Engineer
+email: Egor.zakharov97@gmail.com
+phone: +1 (204) 798-8170
+
+# Social links
+github_username: mang0g0rilla
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile_img.jpg
+about_content: | # this will include new lines to allow paragraphs
+  A third-year computer science student with specialization in software engineering.
+  Experienced in full stack web apps development using <mark>Node.js</mark> and <mark>ejs</mark>.
+  Able to apply wide functionalities like user authentication or e-mail chians.
+  Able to develop amd maintein complex database. Learn fast and always curious about studying new tools.
+
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  Besides software engineering and networks I'm interested in
+   - Mountain skiing
+   - Sports
+   - Crossfit
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag

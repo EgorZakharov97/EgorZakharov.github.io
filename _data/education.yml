@@ -1,0 +1,12 @@
+- layout: left
+  name: University of Manitoba
+  dates: 2017-2021
+  qualification: BSc Computer Science
+  quote: >
+    Manitoba's largest provincial public research university. Founded in 1877, it is the first university in Western Canada. Listed by ARWU as one of the top 500 universities in the world, it is also one of the 15 largest research universities in Canada.
+  description: | # this will include new lines to allow paragraphs
+    During my studies at the university, I acquired many technical skills in various fields of computer science. Also, I increased stress resistance, learned to work in a team and adhere to strict deadlines.
+    
+    **Programming courses:** Analysis of algorithms, Assenbly, Databases, OOP, Computer-Human Interaction, Datastructures
+    
+    **Related courses:** Technical Communication
