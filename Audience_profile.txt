@@ -1,0 +1,17 @@
+Audience: 
+    * lots of expreience in Atom
+    * some experience in Markdown
+    * some experience in GitHub
+    * no experience in Jekyll
+
+Venue: README file within GitHub pages
+
+Purpose: Write a resume in Markdown, Format the resume with a Jekyll theme, and host resume on GitHub pages
+
+Additional purpose: Increase experience and confidence in technical writing tools: Markdown, Jekyll and Github pages
+
+Desired reaction: 
+
+Vocabulary: technical
+
+Tone: 
