@@ -17,22 +17,22 @@ In this tutorial I will explain how to make your resume look modern and responsi
 # Set up the environment
 In our project we are going to use <mark>Ruby</mark>, <mark>Git</mark> and <mark>Jekyll</mark>. As a configuration management framework we are goint to use PowerShell from Microsoft which is basically a command line.
 
-### Step 1 - Download Ruby
+#### Step 1 - Download Ruby
 * Download [Ruby](https://rubyinstaller.org/downloads/) and install it on your machine (if you have not done it previously)
 
-### Step 2 - Download Git
+#### Step 2 - Download Git
 * Download [Git](https://git-scm.com/downloads) and install it on your machine (if you have not done it previously)
 
-### Step 3 - Download Jekyll
+#### Step 3 - Download Jekyll
 * Launch PowerShell by clickgin <mark>Win+S</mark> and typing <mark>PowerShell</mark>
 * run the following command: `gem install jekyll bundler`
 
 # Set up the Jekyll site
 
-### Step 1 - Download the theme
+#### Step 1 - Download the theme
 * Download .zip containing the [theme](https://github.com/sproogen/modern-resume-theme/archive/gh-pages.zip) and extract it to a new folder on your computer
 
-### Step 2 - Run it locally
+#### Step 2 - Run it locally
 The following operations are to be done using PowerShell
 * `cd [your_new_folder_with_Jekyll_theme`]
 * `bundle install`
@@ -47,12 +47,12 @@ Now you will be able to see the preconstructed web page with ypur future resume 
 
 Now as you set up the environment and launch the site locally, you can edit and add new files to the project to make the resume look as you like. In this project you are going to edit data in .yml files which may seem unfamiliar. Feel free to use Markdown rools in these files.
 
-### _config.yml
+#### _config.yml
 This file contains the main configuration of the page. Feel free to replace all the personal information by your own.
 * You may use `Ctrl+/` to exclude some fields you don't need
 * You may change the avatar by placing your own picture into `images` folder and changing `about_profile_image: images/[ur_avarat].jpg` field.
 
-### _layouts/default.html
+#### _layouts/default.html
 This file contains the page layout. If you want to change the order of the sections or add a new one (later in this tutorial), you will have to modify the following code:
 
 ``` html
@@ -75,7 +75,7 @@ This file contains the page layout. If you want to change the order of the secti
 
 This modification brings the **education** section to the top of the page, right after the **about** section
 
-### _data folder
+#### _data folder
 This folder contains **.yml** files of all the custom sections included in the resume.
 * Open each file and replace personal information by your own
 * If you had multiple job positions or university degrees, simply copy and paste the contents of the *section* as many times as you need.
@@ -138,11 +138,11 @@ In order to create a new custom section called **Skills** you will need:
 
 # Publishing resume
 
-### Step 1 - Create new repository
+#### Step 1 - Create new repository
 * Log in into GitHub or create a new account for **free**
 * Create new repository and call it `[your_name].github.io` **This is important since we are going to publish this repository**.
 
-### Step 2 - Upload project files
+#### Step 2 - Upload project files
 Using PowerShell
 * Stop the server by clicking `Ctrl+C`
 * `git init`
@@ -151,7 +151,7 @@ Using PowerShell
 * `git remore add origin [your_repo_link]`
 * `git push -u origin master`
 
-### Step 3 - publish
+#### Step 3 - publish
 * Go to your repository on GitHub
 * Click **Settings** on the toolbar
 * Scroll until the section called **GitHub Pages**
