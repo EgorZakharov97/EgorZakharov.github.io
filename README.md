@@ -24,7 +24,7 @@ In our project we are going to use <mark>Ruby</mark>, <mark>Git</mark> and <mark
 * Download [Git](https://git-scm.com/downloads) and install it on your machine (if you have not done it previously)
 
 #### Step 3 - Download Jekyll
-* Launch PowerShell by clickgin <mark>Win+S</mark> and typing <mark>PowerShell</mark>
+* Launch PowerShell by clickgin `Win+S` and typing `PowerShell`
 * Run the following command: `gem install jekyll bundler`
 
 ## Run jekyll locally
@@ -169,6 +169,9 @@ Now you may visit your resume from any device using the link from above the **Gi
 * Here is a [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [Jekyll](https://jekyllrb.com/) web page
 * Windows [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-6) docs
+
+# Authors and Acknowledgements
+* Thnaks to [James Grant](https://github.com/sproogen) for creating modern-resume-theme that we used in this project.
 
 # FAQ's
 #### Why does GitHub Pages gives me a 404 error?
