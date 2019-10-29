@@ -14,7 +14,7 @@ In this tutorial I will explain how to make your resume look modern and responsi
 * A resume prepared in Word or similar software
 * A little of patience and inthusiasm
 
-# Set up the environment
+# Installation
 In our project we are going to use <mark>Ruby</mark>, <mark>Git</mark> and <mark>Jekyll</mark>. As a configuration management framework we are goint to use PowerShell from Microsoft which is basically a command line.
 
 #### Step 1 - Download Ruby
@@ -27,12 +27,12 @@ In our project we are going to use <mark>Ruby</mark>, <mark>Git</mark> and <mark
 * Launch PowerShell by clickgin <mark>Win+S</mark> and typing <mark>PowerShell</mark>
 * run the following command: `gem install jekyll bundler`
 
-# Set up the Jekyll site
+## Run jekyll locally
 
 #### Step 1 - Download the theme
 * Download .zip containing the [theme](https://github.com/sproogen/modern-resume-theme/archive/gh-pages.zip) and extract it to a new folder on your computer
 
-#### Step 2 - Run it locally
+#### Step 2 - Run the site locally
 The following operations are to be done using PowerShell
 * `cd [your_new_folder_with_Jekyll_theme`]
 * `bundle install`
@@ -50,7 +50,7 @@ Now as you set up the environment and launch the site locally, you can edit and 
 #### _config.yml
 This file contains the main configuration of the page. Feel free to replace all the personal information by your own.
 * You may use `Ctrl+/` to exclude some fields you don't need
-* You may change the avatar by placing your own picture into `images` folder and changing `about_profile_image: images/[ur_avarat].jpg` field.
+* You may change the avatar by placing your own picture into `images` folder and changing `about_profile_image: images/[your_avarat].jpg` field.
 
 #### _layouts/default.html
 This file contains the page layout. If you want to change the order of the sections or add a new one (later in this tutorial), you will have to modify the following code:
@@ -102,11 +102,11 @@ If you have multiple job titles at the same company, use this fromat
 # Custom sections
 In case you may need a custom section which is not provided by default, or you want to modify the appearance of existing one, you have this functionality as well.
 
-In this example you well see how to construct the entirely new section called **Skills** which will include a table and some custom styles.
+In this example you will see how to construct the entirely new section called **Skills**.
 
 In order to create a new custom section called **Skills** you will need:
 * Create a folder `_includes` at the root of the project
-* Create an `skills.html` file which should follow this structure:
+* Create an `skills.html` file using the following structure:
 
 ``` html
 <div class="container container-skills">
@@ -117,7 +117,7 @@ In order to create a new custom section called **Skills** you will need:
   </div>
 ```
 
-* Create `skills.yml` in `_data` folder which may include the following fields:
+* Create `skills.yml` in `_data` folder which should include the following fields:
 
 ``` yml
 - layout: (left, right, top, top-right, top-middle)
@@ -134,6 +134,7 @@ In order to create a new custom section called **Skills** you will need:
     {%- include skills.html -%}
   {%- endif -%}
 ```
+
 * If you are familiar with <mark>SCSS</mark> or <mark>CSS</mark>, you may modify the `assets/main.scss` file to apply custom styles.
 
 # Publishing resume
@@ -154,7 +155,23 @@ Using PowerShell
 #### Step 3 - publish
 * Go to your repository on GitHub
 * Click **Settings** on the toolbar
-* Scroll until the section called **GitHub Pages**
+* Scroll until **GitHub Pages** section
 * Choose **master branch** under the **Source**
 
 Now you may visit your resume from any device using the link from above the **GitHub Pages** section.
+
+# More resources
+* Here is a [link](https://github.com/sproogen/modern-resume-theme) to the theme author's repository
+* Here is a [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Jekyll](https://jekyllrb.com/) web page
+* Windows [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-6) docs
+
+# FAQ's
+#### Why does GitHub Pages gives me a 404 error?
+Make sure your repository name ends with `.github.io`. It is required for your page to be published
+
+#### How can I know which classes to select while applying custom SCSS styles?
+Try using inspection tool in your browser to find elements you want to customize.
+
+#### Why I dont see the changes after modifying the document?
+You probably made a syntax error in the file you modified. Check **indentation** and the correctness of your code.
