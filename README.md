@@ -8,13 +8,13 @@ In this tutorial I will explain how to make your resume look modern and responsi
 
 # Prerequisites
 
-* Windows 8/10 OS
 * Some experience with Markdown
 * A GitHub account (which is free to make)
 * A resume prepared in Word or similar software
 * A little of patience and enthusiasm
 
 # Installation
+This installation tutorial is intended to Windows users. This process may be different for MacOS.
 In our project we are going to use <mark>Ruby</mark>, <mark>Git</mark> and <mark>Jekyll</mark>. As a configuration management framework we are goint to use PowerShell from Microsoft which is basically a command line.
 
 #### Step 1 - Download Ruby
