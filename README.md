@@ -88,6 +88,14 @@ This folder contains **.yml** files of all the custom sections included in the r
 * Leave a field blank if you don't need it (it will not appear in the document).
 * Use options: `left`, `right`, `top`, `top-right` and `top-middle` in `-layout:` field to arrange the contents in the best way.
 
+| Option     | Header             | Content      |
+| ---------- | ------------------ | -------------|
+| left       |    On the left     | On the right |
+| right      |    On the right    | On the left  |
+| top        |     On the top     | Below header |
+| top-right  |    On top-right    | Below header |
+| top-middle |  On the top-middle | Below header |
+
 If you have multiple job titles at the same company, use the following fromat:
 
 ``` yml
