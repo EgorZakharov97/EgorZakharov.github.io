@@ -25,19 +25,20 @@ In our project we are going to use <mark>Ruby</mark>, <mark>Git</mark> and <mark
 
 #### Step 3 - Download Jekyll
 * Launch PowerShell by clickgin <mark>Win+S</mark> and typing <mark>PowerShell</mark>
-* run the following command: `gem install jekyll bundler`
+* Run the following command: `gem install jekyll bundler`
 
 ## Run jekyll locally
 
 #### Step 1 - Download the theme
-* Download .zip containing the [theme](https://github.com/sproogen/modern-resume-theme/archive/gh-pages.zip) and extract it to a new folder on your computer
+* Download .zip containing the [theme](https://github.com/sproogen/modern-resume-theme/archive/gh-pages.zip)
+* Extract it to a new folder on your computer
 
 #### Step 2 - Run the site locally
 The following operations are to be done using PowerShell
 * `cd [your_new_folder_with_Jekyll_theme`]
 * `bundle install`
 * `bundle exec jekyll serve`
-* Open your browser to `http://localhost:4000`
+* Open your browser to [http://localhost:4000](http://localhost:4000)
 
 Now you will be able to see the preconstructed web page with ypur future resume which we are going to change soon. The page should look as follows:
 
