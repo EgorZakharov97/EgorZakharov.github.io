@@ -17,16 +17,16 @@ This tutorial is intended for Computer Science students and graduated programmer
 * A little of patience and enthusiasm
 
 # Installation
-This installation tutorial is intended for Windows users. This process may be different for MacOS.
-In our project we are going to use <mark>Ruby</mark>, <mark>Git</mark> and <mark>Jekyll</mark>. As a configuration management framework, you are going to use PowerShell from Microsoft which is basically a command line.
+This installation tutorial is intended for Windows users. The process may differ on MacOS.
+In our project you are going to use ***Ruby***, ***Git*** and ***Jekyll***. As a configuration management framework, you are going to use ***PowerShell*** from Microsoft which is basically a command line.
 
-#### Step 1 - Download Ruby
+#### Step 1 - Get Ruby
 * Download [Ruby](https://rubyinstaller.org/downloads/) and install it on your machine (if you have not done it previously)
 
-#### Step 2 - Download Git
+#### Step 2 - Get Git
 * Download [Git](https://git-scm.com/downloads) and install it on your machine (if you have not done it previously)
 
-#### Step 3 - Download Jekyll
+#### Step 3 - Get Jekyll
 * Launch PowerShell by clickgin `Win+S` and typing `PowerShell`
 * Run the following command: `gem install jekyll bundler`
 
