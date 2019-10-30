@@ -2,7 +2,7 @@
 
 *How to make a modern responsive resume, customize with Jekyll and host it using GitHub Pages for **free**.*
 
-![responsive resume](https://github.com/mang0g0rilla/EgorZakharov.github.io/blob/master/readme_data/Front.JPG)
+![responsive resume](https://github.com/mang0g0rilla/EgorZakharov.github.io/blob/master/readme_data/Front.JPG?raw=true)
 
 In this tutorial, you will learn how to make your resume look modern and responsive on different screens using custom Jekyll theme. You will see how to edit the theme depending on our needs and add custom blocks. You will then be able to publish your resume on GitHub Pages for free so that anyone can read it.
 
@@ -45,7 +45,7 @@ The following operations are to be done using PowerShell
 
 Now you will be able to see the preconstructed web page which should look as follows:
 
-![Pre-build Resume](https://github.com/mang0g0rilla/EgorZakharov.github.io/blob/master/readme_data/pre-built.JPG)
+![Pre-build Resume](https://github.com/mang0g0rilla/EgorZakharov.github.io/blob/master/readme_data/pre-built.JPG?raw=true)
 
 # Usage
 
