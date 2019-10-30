@@ -1,12 +1,13 @@
 # Making modern resume
 
-*How to make a modern responsive resume, edit with Jekyll and host it using GitHub pages for **free**.*
+*How to make a modern responsive resume, customize with Jekyll and host it using GitHub Pages for **free**.*
 
 ![responsive resume](https://github.com/mang0g0rilla/EgorZakharov.github.io/blob/master/readme_data/Front.JPG)
 
-In this tutorial I will explain how to make your resume look modern and responsive on different screens using custom Jekyll theme. We will see how to edit the theme depending on our needs and add custom blocks. We will then publish the resume on GitHub pages for free.
+In this tutorial, you will learn how to make your resume look modern and responsive on different screens using custom Jekyll theme. You will see how to edit the theme depending on our needs and add custom blocks. You will then be able to publish your resume on GitHub Pages for free so that anyone can read it.
 
 # Audience
+This tutorial is intended for Computer Science students and graduated programmers who are willing to post their resumes online.
 
 # Prerequisites
 
@@ -16,8 +17,8 @@ In this tutorial I will explain how to make your resume look modern and responsi
 * A little of patience and enthusiasm
 
 # Installation
-This installation tutorial is intended to Windows users. This process may be different for MacOS.
-In our project we are going to use <mark>Ruby</mark>, <mark>Git</mark> and <mark>Jekyll</mark>. As a configuration management framework we are goint to use PowerShell from Microsoft which is basically a command line.
+This installation tutorial is intended for Windows users. This process may be different for MacOS.
+In our project we are going to use <mark>Ruby</mark>, <mark>Git</mark> and <mark>Jekyll</mark>. As a configuration management framework, you are going to use PowerShell from Microsoft which is basically a command line.
 
 #### Step 1 - Download Ruby
 * Download [Ruby](https://rubyinstaller.org/downloads/) and install it on your machine (if you have not done it previously)
@@ -48,15 +49,15 @@ Now you will be able to see the preconstructed web page which should look as fol
 
 # Usage
 
-Now as you set up the environment and launch the site locally, you can edit, add new files to the project and see the changes immediatelly.
+Now as you set up the environment and launch the site locally, you can edit, add new files to the project and see the changes immediately.
 
-In this project you are going to edit data in .yml files which may seem unfamiliar. Feel free to use Markdown rools in these files.
+In this project, you are going to edit data in .yml files which may seem unfamiliar. Feel free to use Markdown rools in these files.
 
 #### _config.yml
 This file contains the main configuration of the page. Feel free to replace all the personal information by your own.
 * Use `Ctrl+/` to exclude the fields you don't need
 * Change the avatar by placing your own picture into `images` folder and changing `about_profile_image: images/[your_avarat].jpg` field.
-* Feel free to modify `more_content` section or delete it if not needed.
+* Feel free to modify the `more_content` section or delete it if not needed.
 
 #### _layouts/default.html
 This file contains the page layout. If you want to change the order of the sections or add a new one (later in this tutorial), you will have to modify the following code:
@@ -96,7 +97,7 @@ This folder contains **.yml** files of all the custom sections included in the r
 | top-right  |    On top-right    | Below header |
 | top-middle |  On the top-middle | Below header |
 
-If you have multiple job titles at the same company, use the following fromat:
+If you have multiple job titles at the same company, use the following format:
 
 ``` yml
 - layout: left (options: left, right, top, top-right, top-middle)
@@ -116,7 +117,7 @@ If you have multiple job titles at the same company, use the following fromat:
 # Custom sections
 In case you may need a custom section which is not provided by default, or you want to modify the appearance of existing one, you have this functionality as well.
 
-In this example you will see how to bring new section called **Skills**.
+In this example, you will see how to bring a new section called **Skills**.
 
 In order to create a new custom section **Skills** you need:
 * Create a folder `_includes` at the root of the project
@@ -181,7 +182,9 @@ Now you may visit your resume from any device using the link from above the **Gi
 * Windows [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-6) docs
 
 # Authors and Acknowledgements
-* Thnaks to [James Grant](https://github.com/sproogen) for creating modern-resume-theme that we used in this project.
+* This tutorial was written by [Egor Zakharov](https://github.com/mang0g0rilla)
+* Thanks to [James Grant](https://github.com/sproogen) for creating modern-resume-theme that we used in this project.
+* Thanks to [Tom Preston-Werner](https://en.wikipedia.org/wiki/Tom_Preston-Werner), [Chris Wanstrath](https://en.wikipedia.org/wiki/Chris_Wanstrath), [P. J. Hyett](https://en.wikipedia.org/wiki/P._J._Hyett) and `P. J. Hyett`, the founders of GitHub for giving us the ability to host projects and pages online using their platform.
 
 # FAQ's
 #### Why does GitHub Pages gives me a 404 error?
@@ -190,8 +193,8 @@ Make sure your repository name ends with `.github.io`. It is required for your p
 #### How can I know which classes to select while applying custom SCSS styles?
 Try using inspection tool in your browser to find elements you want to customize.
 
-#### Why I dont see the changes after modifying the document?
+#### Why I don't see the changes after modifying the document?
 You probably made a syntax error in the file you modified. Check **indentation** and the correctness of your code.
 
 #### How can I know `my_repo_link` to upload project files?
-Go to your repository. You will se a green button "Clone or Download" above the files. You will see the link once you click the button.
+Go to your repository. You will see a green button "Clone or Download" above the files. You will see the link once you click the button.
