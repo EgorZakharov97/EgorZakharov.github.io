@@ -22,9 +22,10 @@ github_username: mang0g0rilla
 about_profile_image: images/profile_img.jpg
 about_content: | # this will include new lines to allow paragraphs
   A third-year computer science student with specialization in software engineering.
-  Experienced in full stack web apps development using <mark>Node.js</mark> and <mark>ejs</mark>.
-  Able to apply wide functionalities like user authentication or e-mail chians.
-  Able to develop amd maintein complex database. Learn fast and always curious about studying new tools.
+  Experienced in full stack web development using <mark>Node.js</mark> and <mark>ejs</mark>. 
+  Able to apply wide functionalities like user authentication, e-mail chians and others.
+  Able to develop amd maintein complex database. Have some experience in <mark> Android Studio </mark>, <mark> Amazon Alexa </mark> and <mark> Tizen Wearable </mark> apps development.
+  Learn fast and always curious about studying new tools.
 
 # Projects Section
 # projects_title: Projects

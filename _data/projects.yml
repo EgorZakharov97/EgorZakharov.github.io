@@ -18,4 +18,14 @@
   description: | # this will include new lines to allow paragraphs
     A one-page web site made with <mark>Node.js</mark> which asks users who enters the page to leave their email which will be stored in a <mark>MongoDB</mark> database. This app uses library called "sanitizer" which prevents users to upload malicious code via the email field in order to gain access to the site's server. It also uses cookies to identify users who have already sent their email.
 
-    **Tools:** Node.js, MongoDB, express, ejs, particles.js, sanitizer, gCloud
+    **Tools:** Node.js, MongoDB, express, ejs, particles.js, sanitizer, gCloud.
+
+- layout: left
+  name: Web Scrapper
+  link: https://github.com/mang0g0rilla/Releases-Scrapper
+  github: mang0g0rilla/Releases-Scrapper
+  
+  description: | # this will include new lines to allow paragraphs
+    A small web scrapping script that constructs a database from the information of the latest releases of Movies and Games from the predefined web sites.
+
+    **Tools:** Node.js, MongoDB, Cheerio, Request.
