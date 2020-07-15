@@ -1,31 +1,31 @@
 - layout: left
   name: Inventory app
-  link: github.com/mang0g0rilla/UMSATS.git
-  github: mang0g0rilla/UMSATS.git
+  link: github.com/EgorZakharov97/UMSATS.git
+  github: EgorZakharov97/UMSATS.git
   
   description: | # this will include new lines to allow paragraphs
-    An online library that allows users to get information on any item stored in the system. To book, return, post comments on items. These is a page with announcements made by admin. Users can see other users who have taken an item previously. See contact information and records about other users.
-
-    **Tools:** Node.js, MongoDB, express, passport.js, ejs, other small libraries.
+    An online library that helps members of the University Group called UMSATS to keep track of the inventory. The system allows seeing who took a particular item and when it is expected to be returned. Users can see their and other users' inventory, history, post comments on existing items, and add new ones.
+    
+    **Tools:** Node.js, MongoDB, express, passport.js, ejs, other minor libraries.
     
     **Design:** RESTful backend server enabling items information and records to be stored in a MongoDB database. Simple but comprehensive user interface.
 
 - layout: left
-  name: Email collector
-  link: indifferent.appspot.com/
-  github: mang0g0rilla/Email-Saver.git
+  name: Slow-Drive
+  link: https://egorzakharov97.github.io/Slow-Drive.github.io/
+  github: EgorZakharov97/Slow-Drive.github.io
   
   description: | # this will include new lines to allow paragraphs
-    A one-page web site made with <mark>Node.js</mark> which asks users who enters the page to leave their email which will be stored in a <mark>MongoDB</mark> database. This app uses library called "sanitizer" which prevents users to upload malicious code via the email field in order to gain access to the site's server. It also uses cookies to identify users who have already sent their email.
-
-    **Tools:** Node.js, MongoDB, express, ejs, particles.js, sanitizer, gCloud.
+    The SlowDrive is an application system that will notify drivers if they are speeding. Similar to a radar speed gun, this application measures the speed of the driver, and in addition, indicates as to whether or not the driver is over the speed limit.
+    
+    **Tools:** Android Studio, Bing Maps API
 
 - layout: left
-  name: Web Scrapper
-  link: https://github.com/mang0g0rilla/Releases-Scrapper
+  name: Web Scrapping
+  link: EgorZakharov97/Releases-Scrapper
   github: mang0g0rilla/Releases-Scrapper
   
   description: | # this will include new lines to allow paragraphs
-    A small web scrapping script that constructs a database from the information of the latest releases of Movies and Games from the predefined web sites.
+    Have developed various web scraping scripts using popular Node.js libraries. A number of small programs were able to collect a database based on the information published on several websites. Such as upcoming movies, music, and games along with all corresponding descriptions. Another script was developed to help a fashion clothing shop to build an e-commerce web site. The program was able to gather images and descriptions of goods in an automatic manner based on the SKU of each product.
 
-    **Tools:** Node.js, MongoDB, Cheerio, Request.
+    **Tools:** Node.js, MongoDB, Cheerio, Request, Nightmare.js

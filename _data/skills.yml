@@ -3,15 +3,15 @@
   dates: 
   qualification:
   quote: > 
-    Can make any web application you'd like
+    Always passionate to learn new
 
   description: | # this will include new lines to allow paragraphs
-    | Languages | Toold and technologies | Frameworks and libraries |
+    | Web | Machine Learning | Techniques and Technologies |
     | ----- | ----- | ----- |
-    |   Java    |   Git    |    Express   |
-    | JavaScript | Node.js | Passport.js |
-    | C++ | gCloud | MongoDB |
-    | HTML | Android Studio | jQuerry |
-    | CSS | Visual Studio | ejs |
-
+    |   JS, TS    |   Python3    |    Git   |
+    | Node.js, Deno.js | Numpy, Pandas | SOLID |
+    | MongoDB, MySQL | Scikit-Learn | Software Testing |
+    | HTML, CSS | XGBoost | Agile Development |
+    | React.js | Jupyter Notebook | REST APIs |
+    |  WebFlow | Anaconda | Intellij |
     

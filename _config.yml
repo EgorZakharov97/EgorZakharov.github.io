@@ -9,7 +9,7 @@ email: Egor.zakharov97@gmail.com
 phone: +1 (204) 798-8170
 
 # Social links
-github_username: mang0g0rilla
+github_username: EgorZakharov97
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
@@ -21,11 +21,11 @@ github_username: mang0g0rilla
 # about_title: About Me
 about_profile_image: images/profile_img.jpg
 about_content: | # this will include new lines to allow paragraphs
-  A third-year computer science student with specialization in software engineering.
-  Experienced in full stack web development using <mark>Node.js</mark> and <mark>ejs</mark>. 
-  Able to apply wide functionalities like user authentication, e-mail chians and others.
-  Able to develop amd maintein complex database. Have some experience in <mark> Android Studio </mark>, <mark> Amazon Alexa </mark> and <mark> Tizen Wearable </mark> apps development.
-  Learn fast and always curious about studying new tools.
+  A fourth-year computer science student with a specialization in software engineering and Computer-Human Interaction.
+  Have experience in Machine Learning. Have experienced in full-stack web development.
+  Able to apply wide functionalities like user authentication, e-mail chains, the user sessions, Redis Cache, etc.
+  Able to develop amd maintein complex database. Have some experience in Android Studio, Amazon Alexa and Tizen Wearable apps.
+  I learn fast and always curious about studying new tools.
 
 # Projects Section
 # projects_title: Projects
